@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0763BDB60ED3D7D9CB3C87D2 /* ExperimentLab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C225E2B64765AF0A4AB915 /* ExperimentLab.swift */; };
+		0D5B3074549649CC964CE22E /* SimulationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8F138E423D6D173A74838 /* SimulationModels.swift */; };
+		24C91F41BA1C7451461DA3E7 /* NanoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1256B396F111335C8D84ED /* NanoApp.swift */; };
+		31C415BBBC69A0436AE0EB1D /* AppIcon-prompt.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1C807B133E0547007357BE35 /* AppIcon-prompt.txt */; };
+		3B47FD0D291F2C98F7C9E56A /* WorldTuningSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783E0F96E6148570E32D3012 /* WorldTuningSheet.swift */; };
+		5040301C9CA7E3541CE16F55 /* TorusStage.png in Resources */ = {isa = PBXBuildFile; fileRef = DCF17EC27881C0B3F5AF248E /* TorusStage.png */; };
+		52F1D761E9B0B0E9C3A2CEC0 /* Vector2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78E522FB42B5CC77326599C /* Vector2.swift */; };
+		5A6945120B99D21123EF703E /* ExperimentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3672D666FC628BAFD9D7CB6D /* ExperimentsView.swift */; };
+		5BAF3E983BFAC2873623E2FF /* WorldDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBC44966D9401DE79C4ED1 /* WorldDetailView.swift */; };
+		85E736F3ECE52807D5C018FF /* TorusScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E522C89C6A89106E465FDC0 /* TorusScene.swift */; };
+		870ECD53FB50F11F836E501C /* NanoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0232665F93EB853A05B0C165 /* NanoUITests.swift */; };
+		8C55133BF8FBEB5DA95AFAE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73A0C9E99BE1951A71EAAFD /* Assets.xcassets */; };
+		8EFCF3109BB3B52041A63503 /* NanoGold.png in Resources */ = {isa = PBXBuildFile; fileRef = D673AF53270F74410470E5A3 /* NanoGold.png */; };
+		B02A65CDD4978265251C1028 /* TorusViewport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A46A77E0CF1375F91DC1F32 /* TorusViewport.swift */; };
+		BBF9BE6E064410573E6C48E1 /* NanoPearl.png in Resources */ = {isa = PBXBuildFile; fileRef = EF912F6CF4031D501909D4DA /* NanoPearl.png */; };
+		C820B21EAF07F70F9917411D /* WorldControlsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E227ABA088DFCACB36C327 /* WorldControlsSheet.swift */; };
+		CC0E6E1A38458F9AC8306E53 /* TorusWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108B5C39AE7EBD47F8E8A08E /* TorusWorld.swift */; };
+		CEBF9D5E5129759ED406476F /* WorldPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C597785B5734C88F8D9F8C1 /* WorldPlay.swift */; };
+		D3A8FDDA2ED812278A936C8B /* SimulationMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499253F5930B2E25E10E43EA /* SimulationMetrics.swift */; };
+		E1431957EF86A182767DA059 /* GrowthPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C268B269AC1ABC9DE33632F /* GrowthPanel.swift */; };
+		EF5D75DB64817EDD2414367C /* UniverseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C23B9590B1F4A85414B3D25 /* UniverseView.swift */; };
+		F88D1114B5A35D4E57B13381 /* LabStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B11E18F35387DA6399D2C1 /* LabStore.swift */; };
+		FDD80C97D130FF9780A9456E /* NanoCrystal.png in Resources */ = {isa = PBXBuildFile; fileRef = BFC8FF9820C47F2CAB6A4845 /* NanoCrystal.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29FFABA78EFDF6F4D1C1AAF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B52694DA411F71CCCECD30D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32F561AF0EC06FBA238F494A;
+			remoteInfo = Nano;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0232665F93EB853A05B0C165 /* NanoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoUITests.swift; sourceTree = "<group>"; };
+		1052DA6678DB01DAF46FF17D /* Nano.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Nano.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		108B5C39AE7EBD47F8E8A08E /* TorusWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorusWorld.swift; sourceTree = "<group>"; };
+		1C807B133E0547007357BE35 /* AppIcon-prompt.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AppIcon-prompt.txt"; sourceTree = "<group>"; };
+		2C23B9590B1F4A85414B3D25 /* UniverseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniverseView.swift; sourceTree = "<group>"; };
+		34CBC44966D9401DE79C4ED1 /* WorldDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldDetailView.swift; sourceTree = "<group>"; };
+		3672D666FC628BAFD9D7CB6D /* ExperimentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentsView.swift; sourceTree = "<group>"; };
+		499253F5930B2E25E10E43EA /* SimulationMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationMetrics.swift; sourceTree = "<group>"; };
+		58C225E2B64765AF0A4AB915 /* ExperimentLab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentLab.swift; sourceTree = "<group>"; };
+		5A46A77E0CF1375F91DC1F32 /* TorusViewport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorusViewport.swift; sourceTree = "<group>"; };
+		5AD8F138E423D6D173A74838 /* SimulationModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationModels.swift; sourceTree = "<group>"; };
+		783E0F96E6148570E32D3012 /* WorldTuningSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTuningSheet.swift; sourceTree = "<group>"; };
+		8C268B269AC1ABC9DE33632F /* GrowthPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowthPanel.swift; sourceTree = "<group>"; };
+		8E522C89C6A89106E465FDC0 /* TorusScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorusScene.swift; sourceTree = "<group>"; };
+		9C597785B5734C88F8D9F8C1 /* WorldPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldPlay.swift; sourceTree = "<group>"; };
+		BE1256B396F111335C8D84ED /* NanoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoApp.swift; sourceTree = "<group>"; };
+		BFC8FF9820C47F2CAB6A4845 /* NanoCrystal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NanoCrystal.png; sourceTree = "<group>"; };
+		C73A0C9E99BE1951A71EAAFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8007E8F934E524CA515FEBF /* NanoUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = NanoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B11E18F35387DA6399D2C1 /* LabStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabStore.swift; sourceTree = "<group>"; };
+		D673AF53270F74410470E5A3 /* NanoGold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NanoGold.png; sourceTree = "<group>"; };
+		DCF17EC27881C0B3F5AF248E /* TorusStage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TorusStage.png; sourceTree = "<group>"; };
+		E0290BBBFE0D4906FE42A2F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E4E227ABA088DFCACB36C327 /* WorldControlsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldControlsSheet.swift; sourceTree = "<group>"; };
+		EF912F6CF4031D501909D4DA /* NanoPearl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NanoPearl.png; sourceTree = "<group>"; };
+		F78E522FB42B5CC77326599C /* Vector2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2989574970B020FD97BE94EB /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0232665F93EB853A05B0C165 /* NanoUITests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		60705723BC37EECA4EDCCF6E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C807B133E0547007357BE35 /* AppIcon-prompt.txt */,
+				C73A0C9E99BE1951A71EAAFD /* Assets.xcassets */,
+				BFC8FF9820C47F2CAB6A4845 /* NanoCrystal.png */,
+				D673AF53270F74410470E5A3 /* NanoGold.png */,
+				EF912F6CF4031D501909D4DA /* NanoPearl.png */,
+				DCF17EC27881C0B3F5AF248E /* TorusStage.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7285F56575F37905DB816931 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				58C225E2B64765AF0A4AB915 /* ExperimentLab.swift */,
+				499253F5930B2E25E10E43EA /* SimulationMetrics.swift */,
+				5AD8F138E423D6D173A74838 /* SimulationModels.swift */,
+				108B5C39AE7EBD47F8E8A08E /* TorusWorld.swift */,
+				F78E522FB42B5CC77326599C /* Vector2.swift */,
+				9C597785B5734C88F8D9F8C1 /* WorldPlay.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AA7476F0D086EC0931DA414C /* Rendering */ = {
+			isa = PBXGroup;
+			children = (
+				8E522C89C6A89106E465FDC0 /* TorusScene.swift */,
+				5A46A77E0CF1375F91DC1F32 /* TorusViewport.swift */,
+			);
+			path = Rendering;
+			sourceTree = "<group>";
+		};
+		B3D2928B1477125A68CB7F9D = {
+			isa = PBXGroup;
+			children = (
+				DB2B5188588B8FEF8F97C957 /* App */,
+				7285F56575F37905DB816931 /* Core */,
+				CB602FA5D867063C433670F3 /* Features */,
+				AA7476F0D086EC0931DA414C /* Rendering */,
+				60705723BC37EECA4EDCCF6E /* Resources */,
+				2989574970B020FD97BE94EB /* UITests */,
+				EFA25760EF894ED9A15134BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB602FA5D867063C433670F3 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				3672D666FC628BAFD9D7CB6D /* ExperimentsView.swift */,
+				8C268B269AC1ABC9DE33632F /* GrowthPanel.swift */,
+				2C23B9590B1F4A85414B3D25 /* UniverseView.swift */,
+				E4E227ABA088DFCACB36C327 /* WorldControlsSheet.swift */,
+				34CBC44966D9401DE79C4ED1 /* WorldDetailView.swift */,
+				783E0F96E6148570E32D3012 /* WorldTuningSheet.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		DB2B5188588B8FEF8F97C957 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E0290BBBFE0D4906FE42A2F3 /* Info.plist */,
+				C8B11E18F35387DA6399D2C1 /* LabStore.swift */,
+				BE1256B396F111335C8D84ED /* NanoApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EFA25760EF894ED9A15134BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1052DA6678DB01DAF46FF17D /* Nano.app */,
+				C8007E8F934E524CA515FEBF /* NanoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32F561AF0EC06FBA238F494A /* Nano */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665D3DF1C7955AC95970DC05 /* Build configuration list for PBXNativeTarget "Nano" */;
+			buildPhases = (
+				89E41BD874CC35C9FF8D152F /* Sources */,
+				DC8E3853A7E5B2A703D4860D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nano;
+			packageProductDependencies = (
+			);
+			productName = Nano;
+			productReference = 1052DA6678DB01DAF46FF17D /* Nano.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4E7BCE5C838C7F77826F240 /* NanoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 990E6C0CA16DE320D25F01D7 /* Build configuration list for PBXNativeTarget "NanoUITests" */;
+			buildPhases = (
+				9850524E5DC3E594CA843A25 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1139F9C131D280F8472FBC8 /* PBXTargetDependency */,
+			);
+			name = NanoUITests;
+			packageProductDependencies = (
+			);
+			productName = NanoUITests;
+			productReference = C8007E8F934E524CA515FEBF /* NanoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B52694DA411F71CCCECD30D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					32F561AF0EC06FBA238F494A = {
+
+						ProvisioningStyle = Automatic;
+					};
+					E4E7BCE5C838C7F77826F240 = {
+
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32F561AF0EC06FBA238F494A;
+					};
+				};
+			};
+			buildConfigurationList = 354F1FE90DFB190D4C46AEE2 /* Build configuration list for PBXProject "Nano" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B3D2928B1477125A68CB7F9D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EFA25760EF894ED9A15134BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32F561AF0EC06FBA238F494A /* Nano */,
+				E4E7BCE5C838C7F77826F240 /* NanoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC8E3853A7E5B2A703D4860D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C415BBBC69A0436AE0EB1D /* AppIcon-prompt.txt in Resources */,
+				8C55133BF8FBEB5DA95AFAE3 /* Assets.xcassets in Resources */,
+				FDD80C97D130FF9780A9456E /* NanoCrystal.png in Resources */,
+				8EFCF3109BB3B52041A63503 /* NanoGold.png in Resources */,
+				BBF9BE6E064410573E6C48E1 /* NanoPearl.png in Resources */,
+				5040301C9CA7E3541CE16F55 /* TorusStage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89E41BD874CC35C9FF8D152F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0763BDB60ED3D7D9CB3C87D2 /* ExperimentLab.swift in Sources */,
+				5A6945120B99D21123EF703E /* ExperimentsView.swift in Sources */,
+				E1431957EF86A182767DA059 /* GrowthPanel.swift in Sources */,
+				F88D1114B5A35D4E57B13381 /* LabStore.swift in Sources */,
+				24C91F41BA1C7451461DA3E7 /* NanoApp.swift in Sources */,
+				D3A8FDDA2ED812278A936C8B /* SimulationMetrics.swift in Sources */,
+				0D5B3074549649CC964CE22E /* SimulationModels.swift in Sources */,
+				85E736F3ECE52807D5C018FF /* TorusScene.swift in Sources */,
+				B02A65CDD4978265251C1028 /* TorusViewport.swift in Sources */,
+				CC0E6E1A38458F9AC8306E53 /* TorusWorld.swift in Sources */,
+				EF5D75DB64817EDD2414367C /* UniverseView.swift in Sources */,
+				52F1D761E9B0B0E9C3A2CEC0 /* Vector2.swift in Sources */,
+				C820B21EAF07F70F9917411D /* WorldControlsSheet.swift in Sources */,
+				5BAF3E983BFAC2873623E2FF /* WorldDetailView.swift in Sources */,
+				CEBF9D5E5129759ED406476F /* WorldPlay.swift in Sources */,
+				3B47FD0D291F2C98F7C9E56A /* WorldTuningSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9850524E5DC3E594CA843A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870ECD53FB50F11F836E501C /* NanoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1139F9C131D280F8472FBC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32F561AF0EC06FBA238F494A /* Nano */;
+			targetProxy = 29FFABA78EFDF6F4D1C1AAF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20629D08B336468240CD8ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.NanoUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nano;
+			};
+			name = Debug;
+		};
+		216DA6CC81D9CB4A5BC6369C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EB4C02EDB7C0E9FF24C4441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.nano;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89EDAD043EEA1A3FE92C65B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		96CE1993E94E5658F40A04FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.nano;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9A1E0E356328B1278A5DF30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.NanoUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nano;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		354F1FE90DFB190D4C46AEE2 /* Build configuration list for PBXProject "Nano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216DA6CC81D9CB4A5BC6369C /* Debug */,
+				89EDAD043EEA1A3FE92C65B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		665D3DF1C7955AC95970DC05 /* Build configuration list for PBXNativeTarget "Nano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB4C02EDB7C0E9FF24C4441 /* Debug */,
+				96CE1993E94E5658F40A04FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		990E6C0CA16DE320D25F01D7 /* Build configuration list for PBXNativeTarget "NanoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20629D08B336468240CD8ECA /* Debug */,
+				D9A1E0E356328B1278A5DF30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B52694DA411F71CCCECD30D /* Project object */;
+}
